@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 1" verbose="1" >
+    <parameter name="browserName" value="chrome" />
+    <parameter name="driverPath" value="C:\Drivers\chromedriver_78\chromedriver.exe" />
+    <parameter name="url" value="https://www.freecrm.com" />
+    <test name="Regression suite 1" >
+        <classes>
+            <class name="LOGINTS.LoginTC"/>
+        </classes>
+    </test>
+</suite>
